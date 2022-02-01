@@ -8,8 +8,6 @@ Bot for creating, planning and sending http requests.
 - **Saving created request to archive**
 - **Scheduling request to be executed:** </br>
   ✅ At specific time  </br>
-  In development: </br>
-  At specified key's value obtained from http request </br>
   
 ## API endpoints
 
