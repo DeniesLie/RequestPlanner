@@ -7,7 +7,8 @@ Bot for creating, planning and sending http requests.
 - **Creation of request**
 - **Saving created request to archive**
 - **Scheduling request to be executed:** </br>
-  ✅ At specific time  </br>
+  ⚙️ At specific time  </br>
+  ⚙️ At specific value obtained from API call
   
 ## API endpoints
 
