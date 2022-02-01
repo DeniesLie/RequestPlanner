@@ -18,9 +18,8 @@ Bot for creating, planning and sending http requests.
   [link to original image](https://github.com/Amitpnk/Onion-architecture-ASP.NET-Core)
   
 ## Used technology stack
- - C#
- - .NET Core 5
- - ASP.NET 5
+ - .NET 5
+ - ASP.NET Core 5
  - Dapper (ORM)
  - Microsoft SQL Server
  - Docker
