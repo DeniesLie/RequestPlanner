@@ -14,7 +14,7 @@ Bot for creating, planning and sending http requests.
 ## Project structure and architecture
   ### Onion Architecture
   ![image](https://user-images.githubusercontent.com/59698344/152001513-1c9e8512-3e09-4688-b345-69c769e02276.png) </br>
-  [link to image author](https://github.com/Amitpnk/Onion-architecture-ASP.NET-Core)
+  [link to original image](https://github.com/Amitpnk/Onion-architecture-ASP.NET-Core)
   
 ## Used technology stack
  - C#
