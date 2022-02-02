@@ -7,7 +7,7 @@ namespace Domain.Entities
     public abstract class Call
     {
         public int Id { get; set; }
-        public DateTime CreationDateTime { get; set; }
+        public DateTime CreationUtcTime { get; set; }
         public CallStatus CallStatus { get; set; }
         public string? Title { get; set; }
         public string? ApiRoute { get; set; }

@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReqPlanner.WebApi", "ReqPla
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReqPlanner.Tests", "ReqPlanner.Tests\ReqPlanner.Tests.csproj", "{0F3589BB-E2FF-4180-82EB-E7D426CC655C}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ReqPlannerDb", "ReqPlannerDb\ReqPlannerDb.sqlproj", "{AD43C172-10FE-440B-9B33-397D02760A47}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -97,6 +99,24 @@ Global
 		{0F3589BB-E2FF-4180-82EB-E7D426CC655C}.Release|x64.Build.0 = Release|Any CPU
 		{0F3589BB-E2FF-4180-82EB-E7D426CC655C}.Release|x86.ActiveCfg = Release|Any CPU
 		{0F3589BB-E2FF-4180-82EB-E7D426CC655C}.Release|x86.Build.0 = Release|Any CPU
+		{AD43C172-10FE-440B-9B33-397D02760A47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD43C172-10FE-440B-9B33-397D02760A47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD43C172-10FE-440B-9B33-397D02760A47}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AD43C172-10FE-440B-9B33-397D02760A47}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{AD43C172-10FE-440B-9B33-397D02760A47}.Debug|x64.Build.0 = Debug|Any CPU
+		{AD43C172-10FE-440B-9B33-397D02760A47}.Debug|x64.Deploy.0 = Debug|Any CPU
+		{AD43C172-10FE-440B-9B33-397D02760A47}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AD43C172-10FE-440B-9B33-397D02760A47}.Debug|x86.Build.0 = Debug|Any CPU
+		{AD43C172-10FE-440B-9B33-397D02760A47}.Debug|x86.Deploy.0 = Debug|Any CPU
+		{AD43C172-10FE-440B-9B33-397D02760A47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD43C172-10FE-440B-9B33-397D02760A47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD43C172-10FE-440B-9B33-397D02760A47}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{AD43C172-10FE-440B-9B33-397D02760A47}.Release|x64.ActiveCfg = Release|Any CPU
+		{AD43C172-10FE-440B-9B33-397D02760A47}.Release|x64.Build.0 = Release|Any CPU
+		{AD43C172-10FE-440B-9B33-397D02760A47}.Release|x64.Deploy.0 = Release|Any CPU
+		{AD43C172-10FE-440B-9B33-397D02760A47}.Release|x86.ActiveCfg = Release|Any CPU
+		{AD43C172-10FE-440B-9B33-397D02760A47}.Release|x86.Build.0 = Release|Any CPU
+		{AD43C172-10FE-440B-9B33-397D02760A47}.Release|x86.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
