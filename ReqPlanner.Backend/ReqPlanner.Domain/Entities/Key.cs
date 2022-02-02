@@ -1,5 +1,4 @@
 ﻿using System;
-using Domain.Abstractions;
 
 namespace Domain.Entities
 {

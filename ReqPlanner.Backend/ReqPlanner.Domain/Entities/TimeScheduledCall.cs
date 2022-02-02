@@ -1,19 +1,18 @@
-﻿using Domain.Abstractions;
-using System;
+﻿using System;
 
 namespace Domain.Entities
 {
     public class TimeScheduledCall : Call
     {
-        DateTime _execTime;
+        DateTime _execUtcTime;
 
-        public DateTime ExecTime
+        public DateTime ExecUtcTime
         {
-            get { return _execTime; }
+            get { return _execUtcTime; }
             set { 
                 if (value <= DateTime.Now)
                     throw new ArgumentOutOfRangeException("Execution time can't be in past");
-                _execTime = value;
+                _execUtcTime = value;
             }
         }
 
@@ -21,7 +20,7 @@ namespace Domain.Entities
 
         private bool IsConditionMet()
         {
-            if (_execTime >= DateTime.Now)
+            if (_execUtcTime >= DateTime.Now)
                 return true;
             else
                 return false;
