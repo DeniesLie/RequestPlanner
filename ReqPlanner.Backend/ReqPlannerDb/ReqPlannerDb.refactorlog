@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="bf5f0968-1a9d-45c9-96cd-3feaca314e38" ChangeDateTime="01/29/2022 20:35:12">
+    <Property Name="ElementName" Value="[dbo].[TimeScheduledCalls].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TimeScheduledCalls]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CallId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3451a848-a4ec-4f2d-a383-351c5a65ee83" ChangeDateTime="01/29/2022 20:37:15">
+    <Property Name="ElementName" Value="[dbo].[TimeScheduledCalls].[Exec]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TimeScheduledCalls]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ExecTime" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e7a483f0-70a3-44a0-b321-1a4de1dd259e" ChangeDateTime="01/29/2022 20:40:06">
+    <Property Name="ElementName" Value="[dbo].[Keys].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Keys]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ValueHash" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6dc30a28-b7ab-4203-b057-bdad656d79de" ChangeDateTime="01/29/2022 20:40:32">
+    <Property Name="ElementName" Value="[dbo].[Keys].[Val]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Keys]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Title" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e1ab4440-09b9-4242-ae56-dcc36ac0fce8" ChangeDateTime="02/02/2022 19:29:07">
+    <Property Name="ElementName" Value="[dbo].[TimeScheduledCalls].[ExecTime]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TimeScheduledCalls]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ExecUtcTime" />
+  </Operation>
+</Operations>
